@@ -1,0 +1,6 @@
+greenlet==3.1.1
+ipykernel==6.29.5
+llama-index==0.12.28
+llama-index-experimental==0.5.4
+llama-index-llms-ollama==0.5.4
+pip==25.0.1
