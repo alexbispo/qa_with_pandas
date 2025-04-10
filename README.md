@@ -53,7 +53,7 @@ pip install -r requirements.txt
 2. Inicie o serviço Ollama
 3. Faça o download do modelo necessário:
    ```bash
-   ollama pull llama3.2:1b
+   ollama pull llama3.2:3b
    ```
 
 ### 5. Verifique se o Ollama está funcionando
@@ -62,7 +62,7 @@ Você pode testar se o Ollama está funcionando corretamente usando os exemplos 
 
 ```bash
 curl http://localhost:11434/api/chat -d '{
-"model": "llama3.2:1b",
+"model": "llama3.2:3b",
 "messages": [
 { "role": "user", "content": "why is the sky blue?" }
 ]
@@ -102,4 +102,4 @@ Você pode modificar as consultas para explorar suas próprias perguntas sobre o
 
 - Certifique-se de que o Ollama esteja rodando na porta 11434 (padrão)
 - Se encontrar timeouts, tente aumentar o parâmetro `request_timeout` na inicialização do Ollama
-- Verifique se você tem o modelo correto baixado (`llama3.2:1b`)
+- Verifique se você tem o modelo correto baixado (`llama3.2:3b`)
